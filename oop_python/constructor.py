@@ -33,6 +33,8 @@ print(mhs)
 
 # Instansiasi objek kedua dengan nilai yang sama
 mhs2 = Mahasiswa("Andika", 12345)
+print(mhs2.nama)
+print(mhs2.nim)
 
 # Menggunakan __eq__: Otomatis memanggil mhs.__eq__(mhs2)
 # Tanpa __eq__, mhs == mhs2 akan bernilai False karena Python mengecek lokasi memori objek.
