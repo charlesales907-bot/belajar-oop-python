@@ -65,3 +65,5 @@ def sapaan(fungsi):
 def balasan():
     print("Halo jugaa")
 
+balasan()
+
